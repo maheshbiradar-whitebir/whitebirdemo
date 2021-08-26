@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/custom.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" ></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/jquery.ripples-min.js"></script>
+    <script src="js/tilt.jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">PORTFO<span>LIO</span> </div>
+            
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Skills</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+
+        <div class="text">
+            <p>Hello, I am</p>
+            <h1>Mahesh Biradar</h1>
+            <P>And I'm a <span id="ani" style="color: #e74c3c;"></span></P>
+            <button class="c-btn">Hire me</button>
+        </div>
+      
+
+
+    </header>
+        
+        <section id='about'>
+            <div class="section-info">
+                <h1>About</h1>
+                <p>Who i am?</p>
+            </div>
+
+            <div class="about-row">
+                <div class="about-left-col">
+                     <img src="images/abi.jpg" alt="">
+                </div>
+
+                <div class="about-right-col">
+                    <p id="p-title">
+                        Hello, I'm Mahesh & I'm a <span id="ani2" style="color: #e74c3c;"></span>
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, voluptatum qui! Veniam, beatae. Culpa voluptatem ipsum voluptatibus, cupiditate repudiandae incidunt voluptas doloribus deleniti dolor odit, enim optio dolores alias. Doloribus officiis odio fuga adipisci nobis! Voluptate animi eum, quos itaque eaque vero aliquid minima est quisquam unde quae ratione deserunt!
+                    </p>
+                    <button class="c-btn">Download CV</button>
+                </div>
+            </div>
+
+      
+         </section>
+
+              
+              <section id="skills">
+                <div class="section-info">
+                    <h1 style="color: white;">Skill's</h1>
+                    <p>Who i am?</p>
+                </div>
+
+                <div class="skills-row">
+                    <div class="skills-left-col">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, dolore dignissimos pariatur maxime quis similique culpa perferendis tempore recusandae quaerat quibusdam ipsam impedit tenetur quas ab deserunt dolorem placeat suscipit temporibus natus, saepe a quod? Reprehenderit, eligendi. Adipisci nostrum soluta veritatis? Reiciendis quis a modi, ad totam illo dolorem perspiciatis?
+                        </p>
+                        <button class="c-btn">Read More</button>
+
+                    </div>
+                    <div class="skills-right-col">
+                        <div class="progress-div">
+                            <p>
+                                <span>HTML</span><br>
+                                <progress value="80" max="100"></progress>
+                                <span>80%</span>
+                            </p>
+                            <p>
+                                <span>CSS</span><br>
+                                <progress value="80" max="100"></progress>
+                                <span>80%</span>
+                            </p>
+                            <p>
+                                <span>JAVASCRIPT</span><br>
+                                <progress value="80" max="100"></progress>
+                                <span>80%</span>
+                            </p>
+                            <p>
+                                <span>JQUERY</span><br>
+                                <progress value="65" max="100"></progress>
+                                <span>65%</span>
+                            </p>
+                            <p>
+                                <span>BOOTSTRAP</span><br>
+                                <progress value="70" max="100"></progress>
+                                <span>70%</span>
+                            </p>
+                           
+                        </div>
+                    </div>
+                </div>
+
+              </section>
+
+
+              <section id="services">
+                <div class="section-info">
+                    <h1>Services</h1>
+                    <p>What We Provide</p>
+                </div>
+
+                <div class="services-row">
+                    <div class="services-box" data-tilt>
+                        <img src="images/b2.png" alt="">
+                        <h2>Web Design</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quibusdam fugiat inventore consectetur minus, quam delectus ullam est aperiam impedit.
+                        </p>
+                    </div>
+                    <div class="services-box" data-tilt>
+                        <img src="images/b2.png" alt="">
+                        <h2>Web Development</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quibusdam fugiat inventore consectetur minus, quam delectus ullam est aperiam impedit.
+                        </p>
+                    </div>
+                    <div class="services-box" data-tilt>
+                        <img src="images/b2.png" alt="">
+                        <h2>App Development</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quibusdam fugiat inventore consectetur minus, quam delectus ullam est aperiam impedit.
+                        </p>
+                    </div>
+
+                </div>
+              </section>
+
+              <section id="contact">
+                <div class="section-info" style="color: white;">
+                    <h1>Get In Touch</h1>
+                    <p style="color:black;">We are Available</p>
+                </div>
+                <div class="contact-row">
+                    <div class="contact-left-col">
+                        <img src="images/b3.png" alt="">
+                    </div>
+                    <div class="contact-right-col">
+                        <form action="">
+                            <h2>Connect With Us</h2>
+                            <input type="text" placeholder="Name">
+                            <input type="email"  placeholder="E-mail">
+                            <br>
+                            <textarea  cols="40" rows="10" placeholder="Message"></textarea>
+                            <br>
+                            <button class="c-btn"> Submit</button>
+                        </form>
+                    </div>
+                </div>
+
+
+              </section>
+
+              <section id="footer">
+                  <h2>Developed by Mahesh Biradar</h2>
+                  <img src="images/icon.png" width="100" >
+                   
+              </section>
+
+
+
+              
+
+              <script>
+                  jQuery(document).ready(function(){
+                      $('header').ripples({
+                          dropRadius:20,
+                          perturbance: 0.03,
+                      });
+                  });
+              </script>
+
+              <script>
+                  let animate= new Typed('#ani',{
+                      strings:["Front End Developer","Youtuber","Drawing Artist"],
+                      typeSpeed:100,
+                      backSpeed:100,
+                      loop:true,
+                  })
+              </script>
+
+              <script>
+                  let animat= new Typed('#ani2',{
+                      strings:["Front End Developer","Youtuber","Drawing Artist"],
+                      typeSpeed:100,
+                      backSpeed:100,
+                      loop:true,
+                  })
+              </script>
+              
+              
+    
+</body>
+</html>
